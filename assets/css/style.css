@@ -37,6 +37,10 @@ img {
 .j_content {
     justify-content: flex-end;
 }
+
+.s_between {
+    justify-content: space-between;
+}
 /* #endregion Utilities */
 
 /* #region Body */
@@ -53,6 +57,23 @@ img {
     font-size: 1.25rem;
     border-radius: 10px;
 }
+/* /Header */
 
+/* Footer */
+#site_footer {
+    background-color: grey;
+}
 
+#site_footer .container_fluid {
+    padding: 0.75rem 0.5rem;
+}
+
+#site_footer button {
+    background-color: grey;
+    color: white;
+    padding: 0.5rem;
+    font-size: 2.5rem;
+    border: 0;
+}
+/* /Footer */
 /* #endregion Body */
