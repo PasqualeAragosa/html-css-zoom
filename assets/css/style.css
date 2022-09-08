@@ -9,9 +9,50 @@ body {
     background-color: black;
 }
 
+img {
+    max-width: 100%;
+}
+
+.container_fluid {
+    width: 100%;
+    margin: auto;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.row {
+    display: flex;
+}
+
+
+
 /* #endregion Common */
 
+/* #region Utilities */
+.j_content {
+    justify-content: flex-end;
+}
+/* #endregion Utilities */
+
 /* #region Body */
+
+/* Header */
+.speaker_btn {
+    margin: 2rem 1rem;
+}
+
+.speaker_btn button {
+    background-color: grey;
+    color: white;
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    border-radius: 10px;
+}
 
 
 /* #endregion Body */
