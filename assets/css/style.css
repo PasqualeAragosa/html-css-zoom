@@ -19,10 +19,9 @@ img {
 }
 
 .container {
-    width: 80%;
-    max-width: 1200px;
+    width: 90%;
+    max-width: 1300px;
     margin: 0 auto;
-    height: 100vh;
 }
 
 .row {
@@ -85,7 +84,8 @@ img {
 
 /* Footer */
 #site_footer {
-    background-color: grey;
+    background-color: #222222;
+    margin-top: 2.5rem;
 }
 
 #site_footer .container_fluid {
@@ -93,11 +93,26 @@ img {
 }
 
 #site_footer button {
-    background-color: grey;
+    background-color: #222222;
     color: white;
     padding: 0.5rem;
     font-size: 2.5rem;
     border: 0;
+}
+
+.arrow {
+    font-size: 0.5em;
+}
+
+.share_screen {
+    color: rgb(12, 206, 12);
+}
+
+.close_video button {
+    color: red;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 1rem 0.5rem;
 }
 /* /Footer */
 /* #endregion Body */
