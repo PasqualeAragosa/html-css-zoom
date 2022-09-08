@@ -27,9 +27,13 @@ img {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
+.col-1 {
+    width: calc((100% / 7));
 
+}
 
 /* #endregion Common */
 
@@ -58,6 +62,26 @@ img {
     border-radius: 10px;
 }
 /* /Header */
+
+/* Main */
+.col-1 img {
+    padding: 0.25rem;
+    
+}
+
+.user {
+    position: relative;
+}
+
+.voice {
+    padding: 0.25rem;
+    position: absolute;
+    left: 2%;
+    bottom: 5%;
+    background-color: rgba(128, 128, 128, 0.506);
+    color: white;
+}
+/* /Main */
 
 /* Footer */
 #site_footer {
