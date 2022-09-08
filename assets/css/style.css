@@ -44,6 +44,10 @@ img {
 .s_between {
     justify-content: space-between;
 }
+
+.a_items {
+    align-items: center;
+}
 /* #endregion Utilities */
 
 /* #region Body */
@@ -89,7 +93,7 @@ img {
 }
 
 #site_footer .container_fluid {
-    padding: 0.75rem 0.5rem;
+    
 }
 
 #site_footer button {
@@ -100,6 +104,14 @@ img {
     border: 0;
 }
 
+.option_video {
+    padding: 0.75rem 0.5rem;
+}
+
+.menu_video {
+    padding: 0.75rem 0.5rem;
+}
+
 .arrow {
     font-size: 0.5em;
 }
@@ -108,11 +120,11 @@ img {
     color: rgb(12, 206, 12);
 }
 
-.close_video button {
+.close_video {
+    background-color: grey;
     color: red;
     font-size: 1rem;
-    padding: 1rem;
-    margin: 1rem 0.5rem;
+    padding: 2rem;
 }
 /* /Footer */
 /* #endregion Body */
